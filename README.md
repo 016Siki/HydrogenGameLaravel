@@ -96,5 +96,4 @@ Laravelを用いてAPIサーバーを構築し、Unityクライアントと通�
 
 ### ポートフォリオページ
 
-**詳細・スクリーンショットはこちら**
-https://shigetahiroki-portfolio.netlify.app/project2
+詳細・スクリーンショットはこちら⇒**https://shigetahiroki-portfolio.netlify.app/project2**
