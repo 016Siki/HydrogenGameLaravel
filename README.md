@@ -32,27 +32,27 @@
 
 ## 主要ファイルと機能説明
 
-| ファイルパス | スクリプト名 | 内容 |
-| ---- | ---- |---- |
-|HydrogenRanking/app/Http/Controllers/ |**AuthController.php** | ユーザー登録・ログイン・トークン管理|
-|HydrogenRanking/app/Http/Controllers/ |**RankingController.php** | API経由でランキングデータを返す |
-|HydrogenRanking/app/Http/Controllers/ |**ScoreController.php** | スコア送信API |
-|HydrogenRanking/app/Http/Controllers/Web |**AccountController.php** | Web版アカウント削除処理 |
-|HydrogenRanking/app/Http/Controllers/Web |**WebAuthController.php** | Webログイン／ログアウト処理 |
-|HydrogenRanking/app/Http/Controllers/Web |**WebRankingController.php** | Webランキングページ表示 |
-|HydrogenRanking/app/Console/Commands |**GenerateRankings.php** | 日・月・総合ランキングを自動集計するコマンド |
-|HydrogenRanking/app/Models |**Ranking.php** | ランキングモデル |
-|HydrogenRanking/app/Models |**Score.php** | スコアモデル |
-|HydrogenRanking/app/Models |**User.php** | ユーザーモデル |
-|HydrogenRanking/app/Services |**RankingRebuilder.php** | ランキング再構築サービス（スコアから集計） |
-|HydrogenRanking/routes |**api.php** | Unityクライアント向けAPIルート定義 |
-|HydrogenRanking/routes |**web.php** | Web向けルート定義 |
-|HydrogenRanking/resources/views/layouts |**app.blade.php** | Web共通レイアウト |
-|HydrogenRanking/resources/views/auth |**login.blade.php** |ログイン画面 |
-|HydrogenRanking/resources/views/ranking |**index.blade.php** | ランキング表示画面 |
-|HydrogenRanking/database/migrations |**2025_07_09_020957_create_scores_table.php** |スコアテーブル定義 |
-|HydrogenRanking/database/migrations |**2014_10_12_000000_create_users_table.php** | ユーザーテーブル定義 |
-|HydrogenRanking/database/migrations |**2019_12_14_000001_create_personal_access_tokens_table.php** | Sanctumトークンテーブル定義 |
+| スクリプト名 | 内容 |
+| ---- |---- |
+|**AuthController.php** | ユーザー登録・ログイン・トークン管理|
+|**RankingController.php** | API経由でランキングデータを返す |
+|**ScoreController.php** | スコア送信API |
+|**AccountController.php** | Web版アカウント削除処理 |
+|**WebAuthController.php** | Webログイン／ログアウト処理 |
+|**WebRankingController.php** | Webランキングページ表示 |
+|**GenerateRankings.php** | 日・月・総合ランキングを自動集計するコマンド |
+|**Ranking.php** | ランキングモデル |
+|**Score.php** | スコアモデル |
+|**User.php** | ユーザーモデル |
+|**RankingRebuilder.php** | ランキング再構築サービス（スコアから集計） |
+|**api.php** | Unityクライアント向けAPIルート定義 |
+|**web.php** | Web向けルート定義 |
+|**app.blade.php** | Web共通レイアウト |
+|**login.blade.php** |ログイン画面 |
+|**index.blade.php** | ランキング表示画面 |
+|**2025_07_09_020957_create_scores_table.php** |スコアテーブル定義 |
+|**2014_10_12_000000_create_users_table.php** | ユーザーテーブル定義 |
+|**2019_12_14_000001_create_personal_access_tokens_table.php** | Sanctumトークンテーブル定義 |
 
 ---
 
